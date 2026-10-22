@@ -1,0 +1,26 @@
+{
+  "name": "radioanalysis-custom-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/server.js",
+    "check": "node --check src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0",
+    "pdfkit": "^0.20.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "^0.17.6",
+    "nodemon": "^3.1.14"
+  }
+}
